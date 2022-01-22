@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    background: #EAC926 ;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.logo{
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.busqueda{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.cuotas{
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+ul {
+    padding-top: 10px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.burger-menu{
+    text-align: center;
+    border-color: red;
+}
+
+.burger-menu i{
+    background:#03264C;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+footer{
+    width: 250px;
+
+}
+.description-footer{
+    font-size: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+article i{
+    margin: 100px;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1259c3;
+}
+article .title{
+    font-size: 15px;
+    text-align: center;
+}
+article .copyright{
+    font-size: 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
