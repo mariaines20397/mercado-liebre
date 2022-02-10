@@ -1,0 +1,136 @@
+main{
+    padding: 30px 10%;
+}
+.form-register{
+    background: white;
+    padding: 30px;
+}
+.register-name{
+    display: flex;
+    justify-content: space-between;
+}
+.register-name input{
+    width: 45%;
+    font-size: 15px;
+    border: none;
+    height: 30px;
+    border-bottom: 2px solid gray;
+}
+.register-name input:focus{
+    outline:none;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+.register-pass{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 ;
+    height: 30px;
+
+}
+.register-pass input{
+    width: 45%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.register-pass input:focus{
+    outline:none;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+.register-barth{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+}
+.label-barth{
+    margin: 30px 0 0 ;
+}
+.register-barth input{
+    margin: 10px 0;
+    width: 45%;
+    font-size: 15px;
+    border: none;
+    height: 30px;
+
+    border-bottom: 2px solid gray;
+}
+.register-barth input:focus{
+    outline:none;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+.label-user{
+    margin: 30px 0 0 ;
+
+}
+.register-radio{
+    padding-top: 20px;
+    margin: auto;
+}
+.radio-button{
+    display: flex;
+  /*  padding: 10px 20px; */
+}
+.radio{
+    width: 50%;
+    margin-left:20px ;
+}
+.label-category{
+    margin: 30px 0 0 ;
+    
+}
+.register-checkbox{
+    padding-top: 20px;
+    
+}
+.checkbox{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+.label-photo{
+    margin: 30px 0 0 ;
+}
+.register-photo{
+    padding-top: 20px;
+
+}
+.register-btn{
+    margin: 30px 0 0 ;
+display: flex;
+justify-content: center;
+
+}
+.register-btn button{
+    border: none;
+    background:#1259c3;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border-radius: 10%;
+}
+.register-btn button:hover{
+    cursor: pointer;
+    background:#5089df;
+    border: 2px solid #216cdd;
+    height: 40px;
+}
+.submit{
+    width: 45%;
+
+}
+.reset{
+    width: 45%;
+
+}
+@media (min-width: 750px) {
+    .radio{
+        max-width: 30%;
+    }
+    .register-btn{
+        max-width: 50%;
+    }
+}

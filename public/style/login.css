@@ -1,0 +1,38 @@
+main{
+    padding: 30px 30%;
+}
+.form-login{
+    background: white;
+    padding: 5% 10% 10%;
+    border-radius: 5px;
+}
+.form-login input{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    height: 30px;
+    border-bottom: 2px solid gray;
+
+}
+.form-login input:focus{
+    outline:none;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.form-login button{
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    background:#1259c3;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+}
+.form-login button:hover{
+    cursor: pointer;
+    background:#5089df;
+    border: 2px solid #216cdd;
+    height: 40px;
+}
